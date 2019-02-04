@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<style type="text/css">
+		button{
+			text-align: center;
+			width: 5%;
+			height: 5%;
+
+		}
+		#inp{
+			width: 15.5%;
+		}
+
+	</style>
+</head>
+<body>
+	<input id="inp" type="text" name="in">
+	<br>
+	<button onclick="getData(1)">1</button>
+	<button onclick="getData(2)">2</button>
+	<button onclick="getData(3)">3</button>
+	<br>
+	<button onclick="getData(4)">4</button>
+	<button onclick="getData(5)">5</button>
+	<button onclick="getData(6)">6</button>
+	<br>
+	<button onclick="getData(7)">7</button>
+	<button onclick="getData(8)">8</button>
+	<button onclick="getData(9)">9</button>
+	<br>
+	<button onclick="getData(0)">0</button>
+	<button onclick="operator('+')">+</button>
+	<button onclick="operator('-')">-</button>
+	<br>
+	<button onclick="operator('*')">*</button>
+	<button onclick="operator('/')">/</button>
+	<button onclick="operator('%')">%</button>
+	<button onclick="operator('=')">=</button>
+
+	<button onclick="operator('C')">C</button>
+
+</body>
+<script src="calc.js"></script>
+</html>
